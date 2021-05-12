@@ -1,0 +1,750 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:1-282:12
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:1-282:12
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:1-282:12
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:1-282:12
+MERGED from [io.realm:realm-android-library:4.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\realm-android-library-4.1.1.aar\0a7e72b551171fa3b7c573a48c2ad4fd\AndroidManifest.xml:2:1-11:12
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-89:12
+MERGED from [com.android.support:design:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\design-27.1.1.aar\3d2e64826c63b03816431551caba5be4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0d4e71e1d9572e12898288b78601658a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.3.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\permissionsdispatcher-2.3.1.aar\463eae4be02d0a21477ba170d18ab9a2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:WheelPicker:1.5.6.20181018] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\WheelPicker-1.5.6.20181018.aar\c0303509ada0361aebbeba7850df6d25\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:Common:1.5.6.20181018] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\Common-1.5.6.20181018.aar\0f9164c8f373f355576e065f18fd0497\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-v4:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c8bb408236662490a4f94820a8058244\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b4fb2fdc1354711eda2ba26790aa85b5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.scwang.smart:refresh-header-classics:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-header-classics-2.0.1.aar\7502db23c0445d48b19e0ab707f35319\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\hellocharts-library-1.5.8.aar\f0a5ac1d55e463713c0d02aab9a4de67\AndroidManifest.xml:2:1-11:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\relinker-1.2.2.aar\539ba92e9adffcec302d6e4a8df9b70e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\glide-4.8.0.aar\eaaa673a120a2362196004efc2db45a8\AndroidManifest.xml:2:1-12:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-4] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-4.aar\cbeb67766a6bf92838ac5f2f5b63ab89\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:support-fragment:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b45a8363658fb15706ebd604a64e7b62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\7c1e33417765f0d3df4df98222db8c13\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fb7783b177b2a6210dc820ca99ae45b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\22aa669f91341b7056b8f34a28955296\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b2d657fd7d6574fa45b619d003dc31e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f1daaa7b96bd0072b1c6d2c0244ded11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\transition-27.1.1.aar\613d6f4b9c61fbe66fc65085557b3110\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ee3f45ca8f1e5ba7c293cda529efd6b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bbfb2cdceb35382cfe4c5275d62bbb36\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\09d6869d62e5e683019858ce74ea47a9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.scwang.smart:refresh-footer-classics:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-footer-classics-2.0.1.aar\2ea823613af869ea1def03631b149623\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\53f24899c5a528413e067e1fc7923e6d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ee3bd59e331305da77f28aff09fbcf0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.scwang.smart:refresh-drawable-paint:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-drawable-paint-2.0.1.aar\bb1f3479f7626e163bb5b2565ae5e918\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\runtime-1.1.0.aar\85f2c4a7a7ca1f1e655e0bbd7b00bd22\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b53cd3e8b662c4ecef8ee1df6acc2c73\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:1-282:12
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:1-282:12
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:1-282:12
+	package
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:5:5-46
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-79
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:10:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:12:5-85
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:12:22-82
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:13:5-76
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-76
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:16:5-72
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:16:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:17:5-69
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-69
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-69
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:17:22-66
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:19:5-79
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-79
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:22:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:25:5-80
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-80
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:25:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:26:5-81
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:27:5-67
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-67
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:27:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:32:5-67
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:5-67
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:32:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:35:5-65
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-65
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-65
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-65
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:35:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:36:5-66
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-66
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:36:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:37:5-69
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-69
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-69
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:37:22-66
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:40:5-81
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:40:22-78
+uses-feature#android.hardware.camera
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:43:5-60
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-60
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:43:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:44:5-70
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-70
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-70
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:44:19-67
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:46:5-79
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:46:22-76
+application
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:49:5-280:19
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-87:19
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-87:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0d4e71e1d9572e12898288b78601658a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0d4e71e1d9572e12898288b78601658a\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\glide-4.8.0.aar\eaaa673a120a2362196004efc2db45a8\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\glide-4.8.0.aar\eaaa673a120a2362196004efc2db45a8\AndroidManifest.xml:10:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-4] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-4.aar\cbeb67766a6bf92838ac5f2f5b63ab89\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-4] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-4.aar\cbeb67766a6bf92838ac5f2f5b63ab89\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\09d6869d62e5e683019858ce74ea47a9\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\09d6869d62e5e683019858ce74ea47a9\AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:54:9-45
+	android:label
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:53:9-41
+	android:icon
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:52:9-39
+	android:allowBackup
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:51:9-35
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:55:9-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:50:9-52
+activity#zblibrary.demo.DEMO.DemoThreadPoolActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:56:9-74
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:56:19-62
+provider#android.support.v4.content.FileProvider
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:58:9-66:20
+	android:grantUriPermissions
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:62:13-47
+	android:authorities
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:60:13-62
+	android:exported
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:59:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:63:13-65:54
+	android:resource
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:65:17-51
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:64:17-67
+meta-data#IFLYTEK_APPKEY
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:69:9-71:52
+	android:value
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:70:13-42
+meta-data#IFLYTEK_CHANNEL
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:72:9-74:39
+	android:value
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:73:13-43
+activity#zblibrary.demo.activity.SplashActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:77:9-87:20
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:80:13-49
+	android:label
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:79:13-45
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:81:13-47
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:78:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:82:13-86:29
+action#android.intent.action.MAIN
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:83:17-69
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:83:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:85:27-74
+activity#zblibrary.demo.activity.LoginActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:88:9-91:52
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:90:13-45
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:89:13-51
+activity#zblibrary.demo.activity.AboutActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:92:9-95:52
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:95:13-49
+	android:label
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:94:13-45
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:93:13-51
+activity#zblibrary.demo.activity.MainTabActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:96:9-99:52
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:99:13-49
+	android:label
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:98:13-45
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:97:13-53
+activity#zblibrary.demo.activity.SettingActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:100:9-103:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:102:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:103:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:101:13-53
+activity#zblibrary.demo.activity.UserActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:104:9-107:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:106:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:107:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:105:13-50
+activity#zblibrary.demo.activity.ScanActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:108:9-111:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:110:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:111:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:109:13-50
+activity#zblibrary.demo.activity.QRCodeActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:112:9-115:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:114:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:115:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:113:13-52
+activity#zblibrary.demo.DEMO.DemoMainActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:117:9-120:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:120:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:118:13-50
+activity#zblibrary.demo.DEMO.DemoActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:121:9-124:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:123:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:124:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:122:13-46
+activity#zblibrary.demo.DEMO.DemoListActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:125:9-128:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:127:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:128:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:126:13-50
+activity#zblibrary.demo.DEMO.DemoRecyclerActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:129:9-132:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:131:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:132:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:130:13-54
+activity#zblibrary.demo.DEMO.DemoHttpListActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:133:9-136:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:135:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:136:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:134:13-54
+activity#zblibrary.demo.DEMO.DemoHttpRecyclerActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:137:9-140:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:139:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:140:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:138:13-58
+activity#zblibrary.demo.DEMO.DemoFragmentActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:141:9-145:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:144:13-49
+	android:launchMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:143:13-43
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:145:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:142:13-54
+activity#zblibrary.demo.DEMO.DemoTabActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:146:9-149:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:148:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:149:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:147:13-49
+activity#zblibrary.demo.DEMO.DemoSQLActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:150:9-153:88
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:152:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:153:13-85
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:151:13-49
+activity#zblibrary.demo.DEMO.DemoTimeRefresherActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:154:9-157:88
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:156:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:157:13-85
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:155:13-59
+activity#zblibrary.demo.DEMO.DemoBroadcastReceiverActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:158:9-161:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:160:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:161:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:159:13-63
+activity#zblibrary.demo.DEMO.DemoBottomWindow
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:162:9-166:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:164:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:166:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:165:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:163:13-50
+activity#zuo.biao.library.ui.SelectPictureActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:168:9-172:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:34:9-38:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:34:9-38:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:170:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:172:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:171:13-55
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:169:13-69
+activity#zuo.biao.library.ui.CutPictureActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:173:9-177:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:39:9-43:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:39:9-43:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:175:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:177:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:176:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:174:13-66
+activity#zuo.biao.library.ui.WebViewActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:178:9-182:88
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:44:9-48:88
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:44:9-48:88
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:181:13-49
+	android:launchMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:180:13-43
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:182:13-85
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:179:13-63
+activity#zuo.biao.library.ui.EditTextInfoActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:183:9-186:86
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:9-52:86
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:9-52:86
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:185:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:186:13-83
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:184:13-68
+activity#zuo.biao.library.ui.ServerSettingActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:187:9-190:57
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:57
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:57
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:189:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:190:13-54
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:188:13-69
+activity#zuo.biao.library.ui.TopMenuWindow
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:191:9-195:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-61:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-61:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:193:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:195:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:194:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:192:13-61
+activity#zuo.biao.library.ui.BottomMenuWindow
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:196:9-200:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:9-66:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:9-66:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:198:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:200:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:199:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:197:13-64
+activity#zuo.biao.library.ui.EditTextInfoWindow
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:201:9-205:89
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:9-71:89
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:9-71:89
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:203:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:205:13-86
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:204:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:202:13-66
+activity#zuo.biao.library.ui.PlacePickerWindow
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:206:9-210:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:9-76:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:9-76:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:208:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:210:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:209:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:207:13-65
+activity#zuo.biao.library.ui.DatePickerWindow
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:211:9-215:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:213:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:215:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:214:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:212:13-64
+activity#zuo.biao.library.ui.TimePickerWindow
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:216:9-220:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:82:9-86:63
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:82:9-86:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:218:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:220:13-60
+	android:theme
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:219:13-42
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:217:13-64
+activity#zblibrary.demo.heartrate.HeartRateActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:221:9-224:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:223:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:224:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:222:13-56
+activity#zblibrary.demo.activity.XueYaActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:225:9-228:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:227:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:228:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:226:13-51
+activity#zblibrary.demo.activity.TestEyeActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:229:9-232:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:231:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:232:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:230:13-53
+activity#zblibrary.demo.activity.RegisterActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:233:9-236:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:235:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:236:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:234:13-54
+activity#zblibrary.demo.activity.SweetsActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:237:9-240:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:239:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:240:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:238:13-52
+activity#zblibrary.demo.activity.SugarActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:241:9-244:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:243:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:244:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:242:13-51
+activity#zblibrary.demo.activity.WeightActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:245:9-248:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:247:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:248:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:246:13-52
+activity#zblibrary.demo.activity.ReportActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:249:9-252:63
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:251:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:252:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:250:13-52
+activity#zblibrary.demo.stepModule.StepActivity
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:253:9-262:20
+	android:screenOrientation
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:255:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:256:13-60
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:254:13-52
+service#zblibrary.demo.stepModule.step.StepService
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:264:9-267:19
+	android:label
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:266:13-33
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:265:13-56
+receiver#zblibrary.demo.stepModule.BootBroadcastReceiver
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:268:9-279:20
+	android:enabled
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:270:13-35
+	android:exported
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:271:13-37
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:269:13-61
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MEDIA_EJECT+action:name:android.intent.action.MEDIA_MOUNTED+action:name:android.intent.action.MEDIA_UNMOUNTED+action:name:zblibrary.demo.pedometer.start
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:272:13-278:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:273:17-79
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:273:25-76
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:274:17-78
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:274:25-75
+action#android.intent.action.MEDIA_UNMOUNTED
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:275:17-80
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:275:25-77
+action#android.intent.action.MEDIA_EJECT
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:276:17-76
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:276:25-73
+action#zblibrary.demo.pedometer.start
+ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:277:17-73
+	android:name
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml:277:25-70
+uses-sdk
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:4.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\realm-android-library-4.1.1.aar\0a7e72b551171fa3b7c573a48c2ad4fd\AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:4.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\realm-android-library-4.1.1.aar\0a7e72b551171fa3b7c573a48c2ad4fd\AndroidManifest.xml:7:5-9:41
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:QRCodeLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\QRCodeLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:design:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\design-27.1.1.aar\3d2e64826c63b03816431551caba5be4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\design-27.1.1.aar\3d2e64826c63b03816431551caba5be4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0d4e71e1d9572e12898288b78601658a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0d4e71e1d9572e12898288b78601658a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.3.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\permissionsdispatcher-2.3.1.aar\463eae4be02d0a21477ba170d18ab9a2\AndroidManifest.xml:6:5-9:55
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.3.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\permissionsdispatcher-2.3.1.aar\463eae4be02d0a21477ba170d18ab9a2\AndroidManifest.xml:6:5-9:55
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:WheelPicker:1.5.6.20181018] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\WheelPicker-1.5.6.20181018.aar\c0303509ada0361aebbeba7850df6d25\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:WheelPicker:1.5.6.20181018] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\WheelPicker-1.5.6.20181018.aar\c0303509ada0361aebbeba7850df6d25\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:Common:1.5.6.20181018] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\Common-1.5.6.20181018.aar\0f9164c8f373f355576e065f18fd0497\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:Common:1.5.6.20181018] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\Common-1.5.6.20181018.aar\0f9164c8f373f355576e065f18fd0497\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c8bb408236662490a4f94820a8058244\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c8bb408236662490a4f94820a8058244\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b4fb2fdc1354711eda2ba26790aa85b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b4fb2fdc1354711eda2ba26790aa85b5\AndroidManifest.xml:20:5-44
+MERGED from [com.scwang.smart:refresh-header-classics:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-header-classics-2.0.1.aar\7502db23c0445d48b19e0ab707f35319\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-header-classics:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-header-classics-2.0.1.aar\7502db23c0445d48b19e0ab707f35319\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\hellocharts-library-1.5.8.aar\f0a5ac1d55e463713c0d02aab9a4de67\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\hellocharts-library-1.5.8.aar\f0a5ac1d55e463713c0d02aab9a4de67\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\relinker-1.2.2.aar\539ba92e9adffcec302d6e4a8df9b70e\AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\relinker-1.2.2.aar\539ba92e9adffcec302d6e4a8df9b70e\AndroidManifest.xml:7:5-43
+MERGED from [com.github.bumptech.glide:glide:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\glide-4.8.0.aar\eaaa673a120a2362196004efc2db45a8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\glide-4.8.0.aar\eaaa673a120a2362196004efc2db45a8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-4] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-4.aar\cbeb67766a6bf92838ac5f2f5b63ab89\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-4] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-4.aar\cbeb67766a6bf92838ac5f2f5b63ab89\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b45a8363658fb15706ebd604a64e7b62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b45a8363658fb15706ebd604a64e7b62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\7c1e33417765f0d3df4df98222db8c13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\7c1e33417765f0d3df4df98222db8c13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fb7783b177b2a6210dc820ca99ae45b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fb7783b177b2a6210dc820ca99ae45b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\22aa669f91341b7056b8f34a28955296\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\22aa669f91341b7056b8f34a28955296\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b2d657fd7d6574fa45b619d003dc31e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b2d657fd7d6574fa45b619d003dc31e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f1daaa7b96bd0072b1c6d2c0244ded11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f1daaa7b96bd0072b1c6d2c0244ded11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\transition-27.1.1.aar\613d6f4b9c61fbe66fc65085557b3110\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\transition-27.1.1.aar\613d6f4b9c61fbe66fc65085557b3110\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ee3f45ca8f1e5ba7c293cda529efd6b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ee3f45ca8f1e5ba7c293cda529efd6b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bbfb2cdceb35382cfe4c5275d62bbb36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bbfb2cdceb35382cfe4c5275d62bbb36\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\09d6869d62e5e683019858ce74ea47a9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\09d6869d62e5e683019858ce74ea47a9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.scwang.smart:refresh-footer-classics:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-footer-classics-2.0.1.aar\2ea823613af869ea1def03631b149623\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-footer-classics:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-footer-classics-2.0.1.aar\2ea823613af869ea1def03631b149623\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\53f24899c5a528413e067e1fc7923e6d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\53f24899c5a528413e067e1fc7923e6d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ee3bd59e331305da77f28aff09fbcf0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7ee3bd59e331305da77f28aff09fbcf0\AndroidManifest.xml:20:5-44
+MERGED from [com.scwang.smart:refresh-drawable-paint:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-drawable-paint-2.0.1.aar\bb1f3479f7626e163bb5b2565ae5e918\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-drawable-paint:2.0.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\refresh-drawable-paint-2.0.1.aar\bb1f3479f7626e163bb5b2565ae5e918\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\runtime-1.1.0.aar\85f2c4a7a7ca1f1e655e0bbd7b00bd22\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\runtime-1.1.0.aar\85f2c4a7a7ca1f1e655e0bbd7b00bd22\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b53cd3e8b662c4ecef8ee1df6acc2c73\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b53cd3e8b662c4ecef8ee1df6acc2c73\AndroidManifest.xml:20:5-44
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.github.hotchemi:permissionsdispatcher:2.3.1] D:\softconfig\gradle-4.10-all\gradle-4.10\caches\transforms-1\files-1.1\permissionsdispatcher-2.3.1.aar\463eae4be02d0a21477ba170d18ab9a2\AndroidManifest.xml:9:9-52
+	android:targetSdkVersion
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\andriodstudioworkspace\Android-ZBLibrary\app\src\main\AndroidManifest.xml
+meta-data#android.max_aspect
+ADDED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:9-32:35
+	android:value
+		ADDED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-32
+	android:name
+		ADDED from [:ZBLibrary] D:\workspace\andriodstudioworkspace\Android-ZBLibrary\ZBLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-46

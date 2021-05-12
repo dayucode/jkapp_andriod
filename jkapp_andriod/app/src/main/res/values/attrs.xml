@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RulerView">
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineSpaceWidth" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineMaxHeight" format="dimension" />
+        <attr name="lineMidHeight" format="dimension" />
+        <attr name="lineMinHeight" format="dimension" />
+        <attr name="textMarginTop" format="dimension" />
+        <attr name="alphaEnable" format="boolean" />
+        <attr name="minValue" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="selectorValue" format="float"/>
+        <attr name="perValue" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="radius2" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+    </declare-styleable>
+</resources>

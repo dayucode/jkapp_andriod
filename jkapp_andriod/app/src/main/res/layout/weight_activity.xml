@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_page">
+    <RelativeLayout style="@style/topbar_bg">
+        <ImageButton style="@style/topbar_return_img" />
+        <TextView
+            style="@style/topbar_title"
+            android:layout_centerHorizontal="true"
+            android:text="体重检测" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvSettingContactSettingRemind"
+        style="@style/text_small"
+        android:layout_width="match_parent"
+        android:background="@color/alpha_3"
+        android:gravity="center"
+        android:padding="@dimen/item_left_tv_padding"
+        android:visibility="gone" />
+    <ScrollView style="@style/match_match">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/llSettingAppSettingContainer"
+                style="@style/ll_vertical_match_wrap">
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/content_item_white">
+                    <TextView
+                        style="@style/content_item_lf_tv"
+                        android:layout_weight="2"
+                        android:text="选择日期" />
+                    <TextView
+                        android:id="@+id/text1"
+                        style="@style/content_item_lf_tv"
+                        android:layout_weight="0"
+                        android:text="请选择" />
+                    <ImageView
+                        android:id="@+id/onYearMonthDayPicker"
+                        style="@style/content_item_rt_img"
+                        android:paddingRight="@dimen/item_padding_right"
+                        android:src="@drawable/edit_light_small" />
+                </LinearLayout>
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/content_item_white">
+                    <TextView
+                        style="@style/content_item_lf_tv"
+                        android:layout_weight="2"
+                        android:text="测量时间" />
+                    <TextView
+                        android:id="@+id/text2"
+                        style="@style/content_item_lf_tv"
+                        android:layout_weight="0"
+                        android:text="请选择" />
+                    <ImageView
+                        android:id="@+id/onTimePicker"
+                        style="@style/content_item_rt_img"
+                        android:paddingRight="@dimen/item_padding_right"
+                        android:src="@drawable/edit_light_small" />
+                </LinearLayout>
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/content_item_white">
+                    <TextView
+                        style="@style/content_item_lf_tv"
+                        android:layout_weight="2"
+                        android:text="体重(kg)" />
+                    <TextView
+                        android:id="@+id/text3"
+                        style="@style/content_item_lf_tv"
+                        android:layout_weight="0"
+                        android:text="请选择" />
+                    <ImageView
+                        android:id="@+id/onSinglePicker"
+                        style="@style/content_item_rt_img"
+                        android:paddingRight="@dimen/item_padding_right"
+                        android:src="@drawable/edit_light_small" />
+                </LinearLayout>
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/item_distance" />
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout
+                    style="@style/content_item_white2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/level1"
+                        style="@style/content_item_rt_img"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/level" />
+                    <ImageView
+                        android:id="@+id/level2"
+                        style="@style/content_item_rt_img"
+                        android:layout_weight="1"
+                        android:src="@drawable/level" />
+                    <ImageView
+                        android:id="@+id/level3"
+                        style="@style/content_item_rt_img"
+                        android:layout_weight="1"
+                        android:src="@drawable/level" />
+                    <ImageView
+                        android:id="@+id/level4"
+                        style="@style/content_item_rt_img"
+                        android:layout_weight="1"
+                        android:src="@drawable/level" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/content_item_white2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp">
+                    <TextView
+                        android:id="@+id/level_text1"
+                        style="@style/content_item_rt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="偏轻"
+                        android:textColor="@color/gray_2"></TextView>
+                    <TextView
+                        android:id="@+id/level_text2"
+                        style="@style/content_item_rt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="健康"
+                        android:textColor="@color/gray_2"></TextView>
+                    <TextView
+                        android:id="@+id/level_text3"
+                        style="@style/content_item_rt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="超重"
+                        android:textColor="@color/gray_2"></TextView>
+                    <TextView
+                        android:id="@+id/level_text4"
+                        style="@style/content_item_rt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="肥胖"
+                        android:textColor="@color/gray_2"></TextView>
+                </LinearLayout>
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/item_distance" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

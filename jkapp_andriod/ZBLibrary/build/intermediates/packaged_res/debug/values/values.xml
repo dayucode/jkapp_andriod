@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ages">
+        <item>不限</item>
+        <item>20岁以下</item>
+        <item>20-25岁</item>
+        <item>25-30岁</item>
+        <item>30-35岁</item>
+        <item>35岁以上</item>
+    </string-array>
+    <string-array name="constellations">
+        <item>不限</item>
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+    </string-array>
+    <string-array name="distances">
+        <item>不限</item>
+        <item>小于1千米</item>
+        <item>1千米-5千米</item>
+        <item>5千米-10千米</item>
+        <item>10千米-20千米</item>
+        <item>20千米以上</item>
+    </string-array>
+    <string-array name="profesions">
+        <item>计算机/互联网/通信/电子</item>
+        <item>会计/金融/银行/保险</item>
+        <item>商业/服务业/个体经营</item>
+        <item>贸易/消费/运营</item>
+        <item>生产/工艺/制造</item>
+        <item>医疗/护理/制药</item>
+        <item>文化/广告/媒体</item>
+        <item>娱乐/艺术/表演</item>
+        <item>公务员/事业单位</item>
+        <item>房地厂/建筑</item>
+        <item>律师/法务</item>
+        <item>教育/培训</item>
+        <item>学生</item>
+        <item>其它</item>
+        <item>无</item>
+    </string-array>
+    <string-array name="sexs">
+        <item>不限</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <color name="activity_bg">#f7f8f8</color>
+    <color name="alpha_1">#1000</color>
+    <color name="alpha_3">#3000</color>
+    <color name="alpha_6">#6000</color>
+    <color name="alpha_9">#9000</color>
+    <color name="alpha_complete">#0000</color>
+    <color name="black">#000000</color>
+    <color name="black_slight">#666666</color>
+    <color name="blue">#009ed3</color>
+    <color name="blue_btn">#2c6ed2</color>
+    <color name="blue_sky">#62c8f9</color>
+    <color name="btn_blue_normal">#009ed3</color>
+    <color name="btn_blue_pressed">#2c6ed2</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_red_normal">#ff3b3b</color>
+    <color name="btn_red_pressed">#dd0000</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="button_unselected">#ff54acea</color>
+    <color name="divider">#dddddd</color>
+    <color name="gray">#666666</color>
+    <color name="gray_1">#b5b5b5</color>
+    <color name="gray_2">#999999</color>
+    <color name="gray_3">#666666</color>
+    <color name="gray_4">#333333</color>
+    <color name="gray_bold">#303133</color>
+    <color name="gray_deep">#999999</color>
+    <color name="gray_interest">#d2d2d2</color>
+    <color name="gray_slight">#dcdcdc</color>
+    <color name="gray_unslected">#999999</color>
+    <color name="green">#33cc66</color>
+    <color name="green_btn">#33b422</color>
+    <color name="green_deep">#33cc99</color>
+    <color name="indicator_enter">#999999</color>
+    <color name="noread">#ff4b4b4b</color>
+    <color name="orange_btn">#e87a22</color>
+    <color name="orangered">#ff5900</color>
+    <color name="pink">#ff6666</color>
+    <color name="readed">#ffc05500</color>
+    <color name="red">#ee3b3b</color>
+    <color name="red_interest">#ee3b3b</color>
+    <color name="red_line">#ff3d01</color>
+    <color name="red_text">#ff3d01</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="silvery">#e0e0e0</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="topbar_bg">#33cc99</color>
+    <color name="topbar_bg_black">#272e2a</color>
+    <color name="topbar_bg_white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent01">#9000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_alpha">#ddffffff</color>
+    <color name="white_alpha_6">#bbdddddd</color>
+    <color name="white_selected">#ffffff</color>
+    <color name="white_slight">#eeeeee</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <color name="yellow">#ffd400</color>
+    <dimen name="bottom_drag_height">78dp</dimen>
+    <dimen name="bottom_drag_max_height">100dp</dimen>
+    <dimen name="bottom_drag_min_width">80dp</dimen>
+    <dimen name="bottombar_height">48dp</dimen>
+    <dimen name="btn_bottom_padding">10dp</dimen>
+    <dimen name="btn_middle">24dp</dimen>
+    <dimen name="content_item_left_tv_padding_left">15dp</dimen>
+    <dimen name="content_item_right_img_padding_right">15dp</dimen>
+    <dimen name="edit_item_padding_left">15dp</dimen>
+    <dimen name="grid_picker_content_height">300dp</dimen>
+    <dimen name="item_distance">15dp</dimen>
+    <dimen name="item_height">45dp</dimen>
+    <dimen name="item_left_tv_padding">15dp</dimen>
+    <dimen name="item_message">60dp</dimen>
+    <dimen name="item_padding_bottom">15dp</dimen>
+    <dimen name="item_padding_left">42dp</dimen>
+    <dimen name="item_padding_right">12dp</dimen>
+    <dimen name="item_padding_top">15dp</dimen>
+    <dimen name="item_remind_tv_height">30dp</dimen>
+    <dimen name="item_right_img_padding_right">15dp</dimen>
+    <dimen name="item_right_tv_width">78dp</dimen>
+    <dimen name="lv_refresh_header_view_height">60dp</dimen>
+    <dimen name="margin_big">9dp</dimen>
+    <dimen name="margin_huge">15dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_micro">2dp</dimen>
+    <dimen name="margin_middle">6dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="max_distance_y">120dp</dimen>
+    <dimen name="min_distance_y">24dp</dimen>
+    <dimen name="padding_big">9dp</dimen>
+    <dimen name="padding_huge">15dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_micro">2dp</dimen>
+    <dimen name="padding_middle">6dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="pb_circle_topbar_height">25dp</dimen>
+    <dimen name="pb_circle_topbar_width">25dp</dimen>
+    <dimen name="radius">3dp</dimen>
+    <dimen name="search_bar_et_height">36dp</dimen>
+    <dimen name="text_size_big">19sp</dimen>
+    <dimen name="text_size_huge">21sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_middle">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="top_menu_item_height">45dp</dimen>
+    <dimen name="top_menu_item_max_width">240dp</dimen>
+    <dimen name="top_menu_item_min_width">150dp</dimen>
+    <dimen name="top_menu_item_width">150dp</dimen>
+    <dimen name="top_menu_max_width">300dp</dimen>
+    <dimen name="top_menu_width">150dp</dimen>
+    <dimen name="topbar_btn_min_width">40dp</dimen>
+    <dimen name="topbar_height">50dp</dimen>
+    <dimen name="topbar_title_padding">50dp</dimen>
+    <item name="flBaseTabFragmentContainer" type="id"/>
+    <item name="ivBaseTabReturn" type="id"/>
+    <item name="llBaseTabTabContainer" type="id"/>
+    <item name="llBaseTabTopRightButtonContainer" type="id"/>
+    <item name="llBaseViewBottomWindowContainer" type="id"/>
+    <item name="lvBaseList" type="id"/>
+    <item name="pbBaseTitle" type="id"/>
+    <item name="rvBaseList" type="id"/>
+    <item name="rvBaseRecycler" type="id"/>
+    <item name="srlBaseHttpList" type="id"/>
+    <item name="srlBaseHttpRecycler" type="id"/>
+    <item name="tvBaseTabReturn" type="id"/>
+    <item name="tvBaseTabTitle" type="id"/>
+    <item name="tvBaseTitle" type="id"/>
+    <item name="tvBaseViewBottomWindowForward" type="id"/>
+    <item name="tvBaseViewBottomWindowReturn" type="id"/>
+    <item name="vBaseBottomWindowRoot" type="id"/>
+    <string name="add_failed">添加失败，请检查网络后重试</string>
+    <string name="add_succeed">添加成功</string>
+    <string name="adding">正在添加，请稍后...</string>
+    <string name="app_name">ZBLibrary</string>
+    <string name="app_version">20.0</string>
+    <string name="change_failed">修改失败，请检查网络后重试</string>
+    <string name="change_succeed">修改成功</string>
+    <string name="changing">正在修改，请稍后...</string>
+    <string name="close_failed">关闭失败，请检查网络后重试</string>
+    <string name="close_succeed">关闭成功</string>
+    <string name="closing">正在关闭，请稍后...</string>
+    <string name="delete_failed">删除失败，请检查网络后重试</string>
+    <string name="delete_succeed">删除成功</string>
+    <string name="deleting">正在删除，请稍后...</string>
+    <string name="exitting">正在退出，请稍侯……</string>
+    <string name="function_will_coming_soon">这个功能即将推出^_^</string>
+    <string name="get_failed">获取失败，请检查网络后重试</string>
+    <string name="get_succeed">获取成功</string>
+    <string name="initializing">正在初始化，请稍侯……</string>
+    <string name="loading">正在加载，请稍后...</string>
+    <string name="logging">正在登录，请稍侯……</string>
+    <string name="login_faild">登录失败，请检查网络后重试</string>
+    <string name="login_succeed">登录成功</string>
+    <string name="net_error">网络异常，请稍后重试</string>
+    <string name="no_more">没有更多了</string>
+    <string name="no_sdcard">请插入SD卡</string>
+    <string name="open_failed">开启失败，请检查网络后重试</string>
+    <string name="open_succeed">开启成功</string>
+    <string name="openning">正在开启，请稍后...</string>
+    <string name="page_return">返回</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="remind">提示</string>
+    <string name="save_failed">保存失败，请检查网络后重试</string>
+    <string name="save_succeed">保存成功</string>
+    <string name="saving">正在保存，请稍后...</string>
+    <string name="send_failed">发送失败，请检查网络后重试</string>
+    <string name="send_succeed">发送成功</string>
+    <string name="sending">正在发送，请稍后...</string>
+    <string name="share_app">我发现了一款很好用的Android快速开发框架，叫 Android－ZBLibrary ，快去GitHub上看看吧~</string>
+    <string name="update">更新</string>
+    <style name="ActivityDialog" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/alpha_complete</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="ActivityRecDialog" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_bg_rec</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/alpha_complete</item>
+    </style>
+    <style name="AlphaWindowNoTrancelation">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/alpha_complete</item>
+    </style>
+    <style name="MyDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Window">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/alpha_6</item>
+    </style>
+    <style name="WindowCompleteAlpha" parent="Window">
+        <item name="android:windowBackground">@color/alpha_complete</item>
+    </style>
+    <style name="activity_page">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/activity_bg</item>
+        <item name="android:orientation">vertical</item>
+        <!-- 状态栏沉浸 <<<<<<<<<<<<<<<<< -->
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- 状态栏沉浸 >>>>>>>>>>>>>>>>> -->
+    </style>
+    <style name="activity_page2">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/white_alpha</item>
+        <item name="android:orientation">vertical</item>
+        <!-- 状态栏沉浸 <<<<<<<<<<<<<<<<< -->
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- 状态栏沉浸 >>>>>>>>>>>>>>>>> -->
+    </style>
+    <style name="activity_page3">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">vertical</item>
+        <!-- 状态栏沉浸 <<<<<<<<<<<<<<<<< -->
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- 状态栏沉浸 >>>>>>>>>>>>>>>>> -->
+    </style>
+    <style name="blank">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+    </style>
+    <style name="blank_big" parent="blank">
+        <item name="android:layout_height">15dp</item>
+    </style>
+    <style name="blank_bottom" parent="blank">
+        <item name="android:layout_height">30dp</item>
+    </style>
+    <style name="blank_huge" parent="blank">
+        <item name="android:layout_height">20dp</item>
+    </style>
+    <style name="blank_item" parent="blank">
+        <item name="android:layout_height">15dp</item>
+    </style>
+    <style name="blank_large" parent="blank">
+        <item name="android:layout_height">30dp</item>
+    </style>
+    <style name="blank_middle" parent="blank">
+        <item name="android:layout_height">10dp</item>
+    </style>
+    <style name="blank_small" parent="blank">
+        <item name="android:layout_height">5dp</item>
+    </style>
+    <style name="bottom_menu_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/btn_bottom_padding</item>
+        <item name="android:background">@drawable/to_alpha</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="bottom_menu_btn_forward" parent="bottom_menu_btn">
+        <item name="android:id">@id/tvBaseViewBottomWindowForward</item>
+        <item name="android:text">确定</item>
+        <item name="android:onClick">onForwardClick</item>
+    </style>
+    <style name="bottom_menu_btn_return" parent="bottom_menu_btn">
+        <item name="android:id">@id/tvBaseViewBottomWindowReturn</item>
+        <item name="android:text">取消</item>
+        <item name="android:textColor">@color/gray_3</item>
+        <item name="android:onClick">onReturnClick</item>
+    </style>
+    <style name="bottom_window_button" parent="text_middle_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/white_to_alpha</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="bottom_window_button_cancel" parent="bottom_window_button">
+        <item name="android:text">取消</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/gray_to_alpha</item>
+    </style>
+    <style name="bottom_window_content" parent="ll_vertical_match_wrap">
+        <item name="android:background">@color/activity_bg</item>
+        <item name="android:padding">@dimen/padding_huge</item>
+    </style>
+    <style name="bottom_window_icon" parent="text_middle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:background">@drawable/null_drawable</item>
+    </style>
+    <style name="bottom_window_page" parent="activity_page">
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:background">@color/alpha_complete</item>
+    </style>
+    <style name="bottombar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/bottombar_height</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">6dp</item>
+    </style>
+    <style name="btn_big" parent="text_big">
+        <item name="android:background">@drawable/btn_blue_selector</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+    <style name="btn_blue_bg_hdpi">
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/btn_blue_bg</item>
+    </style>
+    <style name="btn_blue_middle" parent="btn_middle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/btn_blue_selector</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="btn_bottom">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@color/btn_blue_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="btn_bottom_blue" parent="btn_bottom">
+        <item name="android:background">@drawable/btn_blue_round_bg</item>
+    </style>
+    <style name="btn_bottom_red" parent="btn_bottom">
+        <item name="android:background">@drawable/btn_red_round_bg</item>
+    </style>
+    <style name="btn_bottom_white" parent="btn_bottom">
+        <item name="android:background">@drawable/white_to_gray</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="btn_confirm" parent="btn_bottom_blue">
+        <item name="android:text">确认</item>
+    </style>
+    <style name="btn_large" parent="text_large">
+        <item name="android:layout_height">64dp</item>
+        <item name="android:background">@drawable/btn_blue_selector</item>
+    </style>
+    <style name="btn_middle" parent="text_middle">
+        <item name="android:background">@drawable/btn_blue_selector</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+    <style name="btn_next" parent="btn_bottom_blue">
+        <item name="android:text">下一步</item>
+    </style>
+    <style name="btn_small" parent="text_small">
+        <item name="android:background">@drawable/btn_blue_selector</item>
+        <item name="android:layout_height">42dp</item>
+    </style>
+    <style name="buttom_bottom">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="buttom_bottom_blue" parent="buttom_bottom">
+        <item name="android:background">@color/blue</item>
+    </style>
+    <style name="buttom_bottom_red" parent="buttom_bottom">
+        <item name="android:background">@color/red</item>
+    </style>
+    <style name="content_item">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">@dimen/content_item_left_tv_padding_left</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="content_item2">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="content_item3">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="content_item4">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">@dimen/content_item_left_tv_padding_left</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="content_item_big" parent="content_item">
+        <item name="android:layout_height">55dp</item>
+    </style>
+    <style name="content_item_big_lf_img" parent="content_item_lf_img">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:paddingRight">@dimen/padding_big</item>
+        <item name="android:textSize">45sp</item>
+    </style>
+    <style name="content_item_lf">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="content_item_lf_img" parent="text">
+        <item name="android:paddingRight">@dimen/padding_big</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="content_item_lf_tv" parent="text_middle">
+        <item name="android:paddingRight">@dimen/padding_big</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="content_item_lf_tv2" parent="text_middle">
+        <item name="android:paddingRight">@dimen/padding_big</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="content_item_lf_tv_black" parent="content_item_lf_tv">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="content_item_remind_tv">
+        <item name="android:layout_height">@dimen/item_remind_tv_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/item_left_tv_padding</item>
+        <item name="android:paddingRight">@dimen/item_right_img_padding_right</item>
+    </style>
+    <style name="content_item_remind_tv_black" parent="content_item_remind_tv">
+        <item name="android:textColor">@color/gray_4</item>
+    </style>
+    <style name="content_item_remind_tv_rt" parent="content_item_remind_tv">
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:paddingRight">@dimen/item_left_tv_padding</item>
+    </style>
+    <style name="content_item_rt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="content_item_rt_et" parent="content_item_rt_tv">
+        <item name="android:background">@drawable/null_drawable</item>
+        <item name="android:paddingRight">@dimen/padding_big</item>
+        <item name="android:paddingLeft">@dimen/padding_big</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="content_item_rt_img" parent="text_middle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/padding_micro</item>
+        <item name="android:src">@drawable/forward2_light</item>
+    </style>
+    <style name="content_item_rt_tv" parent="text_middle">
+        <item name="android:paddingLeft">@dimen/padding_big</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+    <style name="content_item_rt_tv2" parent="text_middle">
+        <item name="android:paddingLeft">@dimen/padding_big</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <style name="content_item_rt_tv3" parent="text_middle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="content_item_rt_tv_blue" parent="content_item_rt_tv">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="content_item_white" parent="content_item">
+        <item name="android:background">@drawable/white_to_gray</item>
+    </style>
+    <style name="content_item_white2" parent="content_item2">
+        <item name="android:background">@drawable/white_to_gray</item>
+    </style>
+    <style name="content_item_white3" parent="content_item3">
+        <item name="android:background">@drawable/white_to_alpha</item>
+    </style>
+    <style name="content_item_white4" parent="content_item4">
+        <item name="android:background">@drawable/white_to_gray</item>
+    </style>
+    <style name="divider">
+        <item name="android:background">@color/alpha_3</item>
+    </style>
+    <style name="divider_horizontal_1dp" parent="divider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="divider_horizontal_1dp_gray" parent="divider_horizontal_1dp">
+        <item name="android:background">@color/gray_2</item>
+    </style>
+    <style name="divider_horizontal_1px" parent="divider">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="divider_horizontal_1px_gray" parent="divider_horizontal_1px">
+        <item name="android:background">@color/gray_2</item>
+    </style>
+    <style name="divider_vertical_1dp" parent="divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="divider_vertical_1dp_gray" parent="divider_vertical_1dp">
+        <item name="android:background">@color/gray_2</item>
+    </style>
+    <style name="divider_vertical_1dp_white" parent="divider_vertical_1dp">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="divider_vertical_1px" parent="divider">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="divider_vertical_1px_gray" parent="divider_vertical_1px">
+        <item name="android:background">@color/gray_2</item>
+    </style>
+    <style name="divider_vertical_1px_white" parent="divider_vertical_1px">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="edit_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@color/white_selected</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="edit_item2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@color/white_selected</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="edit_item_left_tv" parent="edit_item">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:paddingLeft">@dimen/item_left_tv_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#2b2b2b</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="edit_item_left_tv2" parent="edit_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:paddingLeft">@dimen/item_left_tv_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#2b2b2b</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="edit_item_left_tv_gravity_right" parent="edit_item_left_tv">
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+    <style name="edit_item_right_clear">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/cancel_light</item>
+        <item name="android:textSize">@dimen/text_size_middle</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingRight">@dimen/item_padding_right</item>
+    </style>
+    <style name="edit_item_right_et" parent="edit_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:maxLength">24</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="edit_item_right_et_padding" parent="edit_item_right_et">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/item_left_tv_padding</item>
+        <item name="android:paddingRight">@dimen/item_right_img_padding_right</item>
+    </style>
+    <style name="edit_item_right_ll" parent="edit_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="edit_item_right_ll_vertical" parent="edit_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="edit_item_rt" parent="edit_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="edit_item_rt_tv" parent="edit_item_rt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/gray_slight</item>
+    </style>
+    <style name="edit_item_tv" parent="edit_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="edit_item_white" parent="edit_item">
+        <item name="android:background">@drawable/white_to_gray</item>
+    </style>
+    <style name="edit_text_bg" parent="edit_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:background">@drawable/edit_item_text_bg</item>
+    </style>
+    <style name="img_btn" parent="wrap_wrap">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="img_center" parent="wrap_wrap">
+        <item name="android:scaleType">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="img_centerInside" parent="wrap_wrap">
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="img_centercrop" parent="wrap_wrap">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="img_fitXY" parent="wrap_wrap">
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="input_item_middle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/input_bg</item>
+    </style>
+    <style name="input_text_bg_middle" parent="input_item_middle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+    <style name="ll_horizontal_match_match" parent="match_match">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ll_horizontal_match_wrap" parent="match_wrap">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ll_horizontal_wrap_match" parent="wrap_match">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ll_horizontal_wrap_wrap" parent="wrap_wrap">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ll_vertical_match_match" parent="match_match">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ll_vertical_match_wrap" parent="match_wrap">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ll_vertical_wrap_match" parent="wrap_match">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ll_vertical_wrap_wrap" parent="wrap_wrap">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="lv" parent="match_match">
+        <item name="android:listSelector">@drawable/to_alpha</item>
+        <item name="android:divider">@color/alpha_3</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="lv_item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <!-- <item name="android:padding">10dp</item> -->
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="lv_item_horizontal" parent="lv_item">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="lv_item_vertical" parent="lv_item">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="lv_no_divider" parent="lv">
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+    <style name="lv_no_divider_white" parent="lv_no_divider">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="lv_white" parent="lv">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="menu_manage_manager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+    <style name="menu_manage_manager_item" parent="menu_manage_manager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:background">@drawable/to_alpha</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="progressBarHorizontal_color" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">5dip</item>
+    </style>
+    <style name="spinner_bg_middle">
+        <item name="android:layout_height">36dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="spinner_disobey_middle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+    <style name="spinner_disobey_middle_checked_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawableRight">@drawable/triangle_down</item>
+    </style>
+    <style name="spinner_disobey_middle_item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="spinner_middle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="spinner_middle_checked_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawableRight">@drawable/triangle_down</item>
+    </style>
+    <style name="spinner_middle_item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="spinner_place">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
+    </style>
+    <style name="spinner_small_middle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+    <style name="spinner_small_middle_checked_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawableRight">@drawable/triangle_down</item>
+    </style>
+    <style name="spinner_small_middle_item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="text" parent="wrap_wrap">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray_3</item>
+    </style>
+    <style name="text_big" parent="text">
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+    <style name="text_big_black" parent="text_big">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_big_white" parent="text_big">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="text_huge" parent="text">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+    </style>
+    <style name="text_huge_black" parent="text_huge">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_huge_white" parent="text_huge">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="text_large" parent="text">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+    <style name="text_large_black" parent="text_large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_large_white" parent="text_large">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="text_micro" parent="text">
+        <item name="android:textSize">@dimen/text_size_micro</item>
+    </style>
+    <style name="text_micro_black" parent="text_micro">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_micro_white" parent="text_micro">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="text_middle" parent="text">
+        <item name="android:textSize">@dimen/text_size_middle</item>
+    </style>
+    <style name="text_middle_black" parent="text_middle">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_middle_blue" parent="text_middle">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="text_middle_white" parent="text_middle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="text_small" parent="text">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="text_small_black" parent="text_small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_small_blue" parent="text_small">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="text_small_white" parent="text_small">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="text_title" parent="text">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="topbar_bg">
+        <item name="android:background">@color/topbar_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+    </style>
+    <style name="topbar_bg_green" parent="topbar_bg">
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="topbar_btn">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+        <item name="android:minWidth">@dimen/topbar_btn_min_width</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="topbar_left_btn" parent="topbar_btn">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:text"/>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:onClick">onReturnClick</item>
+    </style>
+    <style name="topbar_left_btn_white" parent="topbar_left_btn">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="topbar_menu_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@drawable/to_alpha</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="topbar_return_img" parent="topbar_left_btn">
+        <item name="android:src">@drawable/back2</item>
+    </style>
+    <style name="topbar_return_tv" parent="topbar_left_btn">
+        <item name="android:text">返回</item>
+    </style>
+    <style name="topbar_right_btn" parent="topbar_btn">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/topbar_height</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:onClick">onForwardClick</item>
+    </style>
+    <style name="topbar_right_img" parent="topbar_right_btn">
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="topbar_tab_bg" parent="ll_horizontal_wrap_wrap">
+        <item name="android:background">@drawable/round_empty_white</item>
+    </style>
+    <style name="topbar_tab_tv" parent="text_small_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">66dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white_to_black</item>
+    </style>
+    <style name="topbar_tab_tv_center" parent="topbar_tab_tv">
+        <item name="android:background">@drawable/tab_bg_center_selector</item>
+    </style>
+    <style name="topbar_tab_tv_left" parent="topbar_tab_tv">
+        <item name="android:background">@drawable/tab_bg_left_selector</item>
+    </style>
+    <style name="topbar_tab_tv_right" parent="topbar_tab_tv">
+        <item name="android:background">@drawable/tab_bg_right_selector</item>
+    </style>
+    <style name="topbar_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/to_alpha</item>
+    </style>
+    <style name="topbar_title">
+        <item name="android:id">@id/tvBaseTitle</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="topbar_title_pb">
+        <item name="android:id">@id/pbBaseTitle</item>
+        <item name="android:layout_width">@dimen/pb_circle_topbar_width</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="topbar_top_simple">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="translucent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/translucentAnimation</item>
+    </style>
+    <style name="translucentAnimation">
+
+        <!-- 切入切出时也会进行的动画，当底部界面均为透明界面时，动画会被桌面遮挡 -->
+        <!--
+        <item name="android:windowEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:windowExitAnimation">@anim/transparent_to_zero</item>
+        -->
+
+
+        <!-- 若底部界面均为透明界面时，以下动画会失效，也会受其他应用影响 -->
+        <item name="android:activityOpenEnterAnimation">@anim/right_push_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/hold</item>
+        <item name="android:activityCloseEnterAnimation">@anim/left_push_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade</item>
+    </style>
+    <style name="tv_remind">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="wrap_match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

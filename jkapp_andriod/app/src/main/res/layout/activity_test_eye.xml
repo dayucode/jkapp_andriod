@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_below="@+id/rl_top"
+        android:layout_toLeftOf="@+id/rl_right"
+        android:layout_toRightOf="@+id/rl_left">
+
+        <ImageView
+            android:id="@+id/img_e"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/img_e" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/selector_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/icon_arrow_up" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上"
+
+            android:textColor="@color/text_color_gray"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_left"
+        android:layout_width="60dp"
+        android:clickable="true"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_below="@+id/rl_top"
+        android:background="@drawable/selector_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:scaleType="fitCenter"
+
+            android:src="@mipmap/icon_arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左"
+            android:textColor="@color/text_color_gray"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/selector_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下"
+            android:textColor="@color/text_color_gray"
+            android:textSize="18dp" />
+
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/icon_arrow_down" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_right"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rl_top"
+        android:background="@drawable/selector_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="右"
+            android:textColor="@color/text_color_gray"
+
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/icon_arrow_right" />
+    </LinearLayout>
+</RelativeLayout>

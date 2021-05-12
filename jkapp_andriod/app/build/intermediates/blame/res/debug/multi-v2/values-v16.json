@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\workspace\\andriodstudioworkspace\\Android-ZBLibrary\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "D:\\softconfig\\gradle-4.10-all\\gradle-4.10\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bbfb2cdceb35382cfe4c5275d62bbb36\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "D:\\softconfig\\gradle-4.10-all\\gradle-4.10\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b4fb2fdc1354711eda2ba26790aa85b5\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

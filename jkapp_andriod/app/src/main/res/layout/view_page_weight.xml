@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View style="@style/divider_horizontal_1px" />
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/layer_drawable_three" />
+
+    <LinearLayout
+        android:layout_alignBottom="@id/img_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/img_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xueya_add"
+            android:background="#00000000"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view1"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text1"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="无"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@drawable/text_view_bg"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:id="@+id/view2"
+        android:layout_below="@id/view1"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+        <TextView
+            android:gravity="start"
+            android:id="@id/text2"
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="BIM值: 18.5"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/view3"
+        android:layout_below="@id/view1"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:gravity="start"
+            android:id="@id/text3"
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="体重(kg): "
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:id="@+id/view4"
+        android:layout_below="@id/view2"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text4"
+            android:gravity="start"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="时间："
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded"></TextView>
+    </LinearLayout>
+</RelativeLayout>

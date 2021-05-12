@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/home_ellipse3" />
+    <item
+        android:width="50dp"
+        android:height="50dp"
+        android:drawable="@drawable/home_sugar"
+        android:gravity="center_horizontal"
+        android:top="30dp" />
+</layer-list>

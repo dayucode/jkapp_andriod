@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_page">
+    <View style="@style/divider_horizontal_1px" />
+    <RelativeLayout style="@style/topbar_bg">
+        <ImageButton style="@style/topbar_return_img" />
+        <TextView
+            style="@style/topbar_title"
+            android:layout_centerHorizontal="true"
+            android:text="咨询详情" />
+    </RelativeLayout>
+    <ScrollView
+        style="@style/match_match"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/svDemoMain"
+            style="@style/ll_vertical_match_match"
+            android:layout_weight="1">
+
+            <LinearLayout style="@style/ll_vertical_match_match">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="@dimen/item_distance"
+                    android:background="@drawable/bg5"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    style="@style/content_item_white">
+                    <TextView
+                        android:id="@+id/title"
+                        style="@style/content_item_lf_tv"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="标题" />
+                </LinearLayout>
+
+                <View style="@style/divider_horizontal_1px" />
+
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/padding_huge" />
+
+                <LinearLayout
+                    android:id="@+id/llDemoMainAlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_to_gray"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:id="@+id/context"
+                    android:layout_margin="@dimen/item_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="文本"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

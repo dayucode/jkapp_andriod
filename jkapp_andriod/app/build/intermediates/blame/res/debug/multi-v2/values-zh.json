@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\workspace\\andriodstudioworkspace\\Android-ZBLibrary\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "D:\\softconfig\\gradle-4.10-all\\gradle-4.10\\caches\\transforms-1\\files-1.1\\refresh-header-classics-2.0.1.aar\\7502db23c0445d48b19e0ab707f35319\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,157,214,268,324,378,434",
+                        "endColumns": "50,50,56,53,55,53,55,60",
+                        "endOffsets": "101,152,209,263,319,373,429,490"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "433,484,535,592,646,702,756,812",
+                        "endColumns": "50,50,56,53,55,53,55,60",
+                        "endOffsets": "479,530,587,641,697,751,807,868"
+                    }
+                },
+                {
+                    "source": "D:\\softconfig\\gradle-4.10-all\\gradle-4.10\\caches\\transforms-1\\files-1.1\\refresh-footer-classics-2.0.1.aar\\2ea823613af869ea1def03631b149623\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,157,210,265,319,379",
+                        "endColumns": "50,50,52,54,53,59,53",
+                        "endOffsets": "101,152,205,260,314,374,428"
+                    }
+                }
+            ]
+        }
+    ]
+}

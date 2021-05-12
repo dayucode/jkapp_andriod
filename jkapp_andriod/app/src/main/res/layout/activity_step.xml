@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_page">
+    <View style="@style/divider_horizontal_1px" />
+    <RelativeLayout style="@style/topbar_bg">
+        <TextView
+            style="@style/topbar_title"
+            android:layout_centerHorizontal="true"
+            android:text="步数检测" />
+
+        <Button
+            android:id="@+id/bt"
+            android:onClick="mybt"
+            style="@style/topbar_right_img"
+            android:text="重置" />
+    </RelativeLayout>
+    <include
+        layout="@layout/content_main" />
+</LinearLayout>

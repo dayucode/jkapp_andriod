@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">快快体检</string>
+    <string name="setting">设置</string>
+    <string name="permissions_allow">允许</string>
+    <string name="permissions_deny">拒绝</string>
+    <string name="permission_camera_dialog_title">开启摄影头</string>
+    <string name="permission_camera_dialog_msg_scanner">请允许我开启摄影头,使我能够扫描二维码.</string>
+    <string name="permission_camera_denied_msg">授权失败,摄像头无法打开</string>
+    <string name="permission_camera_never_ask_again">你已禁止获取摄像机权限,需要在设置中开启摄像机权限</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="text_isr_abnf_hint">#ABNF 1.0 gb2312;\n\tlanguage zh-CN;\n\tmode voice;\n\troot $main;\n\t$main = $place1$place2 ;\n\t$place1 = 上 | 下 | 左 | 右 ;\n\t$place2 = 面 | 边 | 方 ;</string>
+    <string name="title_activity_test_eye">TestEyeActivity</string>
+</resources>

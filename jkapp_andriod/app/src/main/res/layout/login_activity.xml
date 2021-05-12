@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_page"
+    android:background="@drawable/bg1">
+
+    <LinearLayout style="@style/ll_vertical_match_match">
+
+        <RelativeLayout
+            style="@style/match_match"
+            android:layout_weight="1">
+
+            <ScrollView style="@style/match_match">
+
+                <LinearLayout style="@style/ll_vertical_match_match">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvAboutAppInfo"
+                        style="@style/text_big_black"
+                        android:layout_marginBottom="30dp"
+                        android:text="快快体检" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        style="@style/InputBoxStyle">
+
+                        <ImageView
+                            android:layout_height="match_parent"
+                            android:paddingStart="@dimen/padding_micro"
+                            android:src="@drawable/username"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_width="wrap_content"
+                            tools:ignore="RtlSymmetry" />
+
+                        <EditText
+                            android:id="@+id/phone"
+                            android:lines="1"
+                            android:maxLines="1"
+                            android:minLines="1"
+                            android:layout_weight="1"
+                            android:inputType="phone"
+                            android:focusable="true"
+                            android:textColor="@color/dark"
+                            android:textColorHint="@color/gray_2"
+                            android:hint="手机号"
+                            style="@style/content_item_lf_tv2"
+                            android:background="@null" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/divider_horizontal_1px"
+                        android:layout_marginBottom="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        style="@style/InputBoxStyle">
+
+                        <ImageView
+                            android:layout_height="match_parent"
+                            android:paddingLeft="@dimen/padding_micro"
+                            android:src="@drawable/password"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_width="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/password"
+                            android:lines="1"
+                            android:maxLines="1"
+                            android:minLines="1"
+                            android:layout_weight="1"
+                            android:inputType="textPassword"
+                            android:focusable="true"
+                            android:textColor="@color/dark"
+                            android:textColorHint="@color/gray_2"
+                            android:hint="密码"
+                            style="@style/content_item_lf_tv2"
+                            android:background="@null" />
+                    </LinearLayout>
+
+                    <View style="@style/divider_horizontal_1px" />
+
+                    <LinearLayout
+                        android:layout_marginTop="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp">
+
+                        <Button
+                            android:id="@+id/login"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_login_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="登录"></Button>
+
+                        <Button
+                            android:id="@+id/register"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_login_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="注册"></Button>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

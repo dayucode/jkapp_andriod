@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_page">
+
+    <RelativeLayout style="@style/topbar_bg">
+
+        <ImageButton style="@style/topbar_return_img" />
+
+        <TextView
+            style="@style/topbar_title"
+            android:layout_centerHorizontal="true"
+            android:text="最近三月体检报告" />
+    </RelativeLayout>
+
+    <View style="@style/divider_horizontal_1px" />
+
+    <ScrollView
+        style="@style/match_match"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/view1"
+                style="@style/ll_vertical_match_match"
+                android:gravity="center">
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/item_distance" />
+                <TextView
+                    android:gravity="center"
+                    style="@style/edit_item_left_tv2"
+                    android:text="血压测试（次）" />
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"
+                        android:text="偏低" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"
+                        android:text="正常" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"
+                        android:text="偏高" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"
+                        android:text="轻度" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"
+                        android:text="中度" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"
+                        android:text="重度" />
+                </LinearLayout>
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:id="@+id/xy1"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"/>
+                    <TextView
+                        android:id="@+id/xy2"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"/>
+                    <TextView
+                        android:id="@+id/xy3"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"/>
+                    <TextView
+                        android:id="@+id/xy4"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"/>
+                    <TextView
+                        android:id="@+id/xy5"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"/>
+                    <TextView
+                        android:id="@+id/xy6"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_weight="0.16"
+                        style="@style/edit_item_left_tv2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/view2"
+                style="@style/ll_vertical_match_match"
+                android:gravity="center"
+                android:layout_below="@id/view1">
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/item_distance" />
+                <TextView
+                    android:gravity="center"
+                    style="@style/edit_item_left_tv2"
+                    android:text="血糖测试次）"/>
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="偏低" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="正常" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="偏高" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="重度" />
+                </LinearLayout>
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:id="@+id/xt1"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/xt2"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/xt3"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/xt4"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/view3"
+                style="@style/ll_vertical_match_match"
+                android:gravity="center"
+                android:layout_below="@id/view2">
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/item_distance" />
+                <TextView
+                    android:gravity="center"
+                    style="@style/edit_item_left_tv2"
+                    android:text="视力测试次）"/>
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="良好" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="正常" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="轻度" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="中度" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="重度" />
+                </LinearLayout>
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:id="@+id/sl1"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/sl2"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/sl3"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/sl4"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/sl5"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/view4"
+                style="@style/ll_vertical_match_match"
+                android:gravity="center"
+                android:layout_below="@id/view3">
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/item_distance" />
+                <TextView
+                    android:gravity="center"
+                    style="@style/edit_item_left_tv2"
+                    android:text="心率测试次）"/>
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="偏低" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="正常" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="偏高" />
+                </LinearLayout>
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:id="@+id/xl1"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/xl2"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/xl3"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/view5"
+                style="@style/ll_vertical_match_match"
+                android:gravity="center"
+                android:layout_below="@id/view4">
+                <View
+                    style="@style/divider_horizontal_1px"
+                    android:layout_marginBottom="@dimen/item_distance" />
+                <TextView
+                    android:gravity="center"
+                    style="@style/edit_item_left_tv2"
+                    android:text="体重测试次）"/>
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="偏轻" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="健康" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="超重" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="肥胖" />
+                </LinearLayout>
+                <View style="@style/divider_horizontal_1px" />
+                <LinearLayout style="@style/edit_item">
+                    <TextView
+                        android:id="@+id/tz1"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/tz2"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/tz3"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                    <TextView
+                        android:id="@+id/tz4"
+                        android:gravity="center"
+                        android:layout_weight="0.25"
+                        style="@style/edit_item_left_tv2"
+                        android:text="0" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

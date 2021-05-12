@@ -1,0 +1,4 @@
+#Wed May 12 18:15:57 CST 2021
+base.0=D\:\\workspace\\andriodstudioworkspace\\Android-ZBLibrary\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

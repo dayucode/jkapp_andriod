@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/activity_page">
+    <View style="@style/divider_horizontal_1px"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/delete5"
+        android:background="@drawable/selecter_start_order"
+        android:gravity="center"
+        android:text="一键清除"
+        android:textColor="@drawable/selecter_text_color"
+        android:textSize="14sp" />
+</LinearLayout>

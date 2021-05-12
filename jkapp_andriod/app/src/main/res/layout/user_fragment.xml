@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_page">
+    <View style="@style/divider_horizontal_1px" />
+    <ScrollView
+        style="@style/match_match"
+        android:layout_weight="1">
+        <LinearLayout style="@style/ll_vertical_match_match">
+            <View style="@style/divider_horizontal_1px" />
+            <LinearLayout style="@style/edit_item">
+                <TextView
+                    style="@style/edit_item_left_tv"
+                    android:text="昵称" />
+                <EditText
+                    android:id="@+id/nickname"
+                    style="@style/edit_item_right_et"
+                    android:layout_weight="1"
+                    android:maxLength="90"
+                    android:hint="编辑"
+                    android:importantForAutofill="no" />
+                <ImageView
+                    android:id="@+id/can_edit"
+                    style="@style/content_item_rt_img"
+                    android:paddingRight="@dimen/item_padding_right"
+                    android:src="@drawable/edit_light_small" />
+            </LinearLayout>
+            <View
+                style="@style/divider_horizontal_1px"
+                android:layout_marginBottom="@dimen/padding_huge" />
+            <View style="@style/divider_horizontal_1px" />
+
+            <LinearLayout style="@style/edit_item">
+                <TextView
+                    style="@style/edit_item_left_tv"
+                    android:text="账户" />
+                <EditText
+                    android:id="@+id/phone"
+                    style="@style/edit_item_right_et"
+                    android:layout_weight="1"
+                    android:maxLength="90"
+                    android:hint="编辑"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <LinearLayout style="@style/edit_item">
+                <TextView
+                    style="@style/edit_item_left_tv"
+                    android:text="性别" />
+                <EditText
+                    android:id="@+id/sex"
+                    style="@style/edit_item_right_et"
+                    android:layout_weight="1"
+                    android:maxLength="90"
+                    android:hint="编辑"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <LinearLayout style="@style/edit_item">
+                <TextView
+                    style="@style/edit_item_left_tv"
+                    android:text="年龄" />
+                <EditText
+                    android:id="@+id/age"
+                    style="@style/edit_item_right_et"
+                    android:layout_weight="1"
+                    android:maxLength="90"
+                    android:hint="编辑"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <LinearLayout style="@style/edit_item">
+                <TextView
+                    style="@style/edit_item_left_tv"
+                    android:text="身高" />
+                <EditText
+                    android:id="@+id/height"
+                    style="@style/edit_item_right_et"
+                    android:layout_weight="1"
+                    android:maxLength="90"
+                    android:hint="编辑"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px"/>
+            <LinearLayout style="@style/edit_item">
+                <TextView
+                    style="@style/edit_item_left_tv"
+                    android:text="邮箱" />
+                <EditText
+                    android:id="@+id/email"
+                    style="@style/edit_item_right_et"
+                    android:layout_weight="1"
+                    android:maxLength="90"
+                    android:hint="编辑"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <LinearLayout style="@style/content_item_white4">
+                <TextView
+                    style="@style/content_item_lf_tv_black"
+                    android:text="个性签名"/>
+                <EditText
+                    android:id="@+id/introduce"
+                    style="@style/content_item_rt_tv3"
+                    android:text="还没想好呢~"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <View
+                style="@style/divider_horizontal_1px"
+                android:layout_marginBottom="@dimen/padding_huge" />
+            <LinearLayout
+                android:id="@+id/step"
+                style="@style/topbar_bg">
+                <TextView
+                    android:gravity="center"
+                    style="@style/content_item_lf_tv"
+                    android:layout_weight="1"
+                    android:text="运动测试" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <View
+                android:id="@+id/divider"
+                style="@style/divider_horizontal_1px"
+                android:layout_marginBottom="@dimen/padding_huge" />
+            <LinearLayout
+                android:id="@+id/submit"
+                style="@style/topbar_bg">
+                <TextView
+                    android:gravity="center"
+                    style="@style/content_item_lf_tv"
+                    android:layout_weight="1"
+                    android:text="提交" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <View
+                style="@style/divider_horizontal_1px"
+                android:layout_marginBottom="@dimen/padding_huge" />
+            <LinearLayout
+                android:id="@+id/report"
+                style="@style/topbar_bg">
+                <TextView
+                    android:gravity="center"
+                    style="@style/content_item_lf_tv"
+                    android:layout_weight="1"
+                    android:text="体检报告" />
+            </LinearLayout>
+            <View style="@style/divider_horizontal_1px" />
+            <View
+                style="@style/divider_horizontal_1px"
+                android:layout_marginBottom="@dimen/padding_huge" />
+            <LinearLayout
+                android:id="@+id/setting_logout"
+                style="@style/content_item_white">
+                <TextView
+                    android:gravity="center"
+                    style="@style/content_item_lf_tv"
+                    android:layout_weight="1"
+                    android:text="退出登录" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View style="@style/divider_horizontal_1px" />
+    <LinearLayout
+        android:id="@+id/llUserBottomMenuContainer"
+        style="@style/ll_vertical_match_wrap" />
+</LinearLayout>
