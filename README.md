@@ -106,8 +106,6 @@
 
 管理平台   https://github.com/dayucode/healthy-manage
 
-######    <img src="https://github.com/dayucode/healthy/blob/master/healthy/pic/15.png
-
 #### 如有任何问题请咨询
 #### 微信：
 <img src="https://github.com/laughter-dayu/jkapp/blob/master/pic/wexin.jpg" width="20%">
