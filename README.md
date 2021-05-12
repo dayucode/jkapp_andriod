@@ -52,7 +52,7 @@
 
 ##### 图片展示：
 
-![image](https://github.com/dayucode/healthy/blob/master/jkapp_andriod/1.jpg)
+![image](https://github.com/dayucode/healthy/blob/master/1.jpg)
 ![image](https://github.com/dayucode/healthy/blob/master/jkapp_andriod/2.jpg)
 ![image](https://github.com/dayucode/healthy/blob/master/jkapp_andriod/3.jpg)
 ![image](https://github.com/dayucode/healthy/blob/master/jkapp_andriod/4.jpg)
