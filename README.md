@@ -3,8 +3,8 @@
 #### 健康管理系统 
 
 #### 版本：App（原生），微信公众号（h5）、uniApp（混合开发）+后台管理三个版本
-#### 后端：IntelliJIDEA + mysql + redis(公众号时借助Ngrpk内网穿透工具可本地调试)
-#### 前端：webstorm/hubilder/VScode(H5/uninApp) 、Andriodstudio(原生)
+#### 后端：IntelliJIDEA + mysql + redis(公众号时借助Ngrpk内网穿透工具可本地调试" width="20%">
+#### 前端：webstorm/hubilder/VScode(H5/uninApp" width="20%"> 、Andriodstudio(原生" width="20%">
 #### 框架 springBoot + mybatisplus + vue/layui
 #### 简要描述：
 
@@ -18,7 +18,7 @@
 
 
 
-##### App(原生)版
+##### App(原生" width="20%">版
 
 ##### 	1、体征测试：
 
@@ -52,31 +52,31 @@
 
 ##### 图片展示：
 
-<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/1.jpg" width="60%">
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/1.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/2.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/3.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/4.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/5.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/6.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/7.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/8.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/9.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/10.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/11.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/12.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/13.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/14.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/15.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/16.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/17.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/18.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/19.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/20.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/21.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/22.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/23.jpg)
-![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/24.jpg)
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/1.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/1.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/2.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/3.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/4.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/5.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/6.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/7.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/8.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/9.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/10.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/11.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/12.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/13.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/14.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/15.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/16.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/17.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/18.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/19.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/20.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/21.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/22.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/23.jpg" width="20%">
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/24.jpg" width="20%">
 
 
 
@@ -84,10 +84,10 @@
 
 管理平台   https://github.com/dayucode/healthy-manage
 
-######    ![image](https://github.com/dayucode/healthy/blob/master/healthy/pic/15.png
+######    <img src="https://github.com/dayucode/healthy/blob/master/healthy/pic/15.png
 
 #### 如有任何问题请咨询
 #### 微信：
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/wexin.jpg)
+<img src="https://github.com/laughter-dayu/jkapp/blob/master/pic/wexin.jpg" width="20%">
 #### 或邮箱
 #### dayucode@foxmail.com
