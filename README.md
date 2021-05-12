@@ -52,6 +52,7 @@
 
 ##### 图片展示：
 
+<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/1.jpg" width="60%">
 ![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/1.jpg)
 ![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/2.jpg)
 ![image](https://github.com/dayucode/jkapp_andriod/blob/master/pic/3.jpg)
