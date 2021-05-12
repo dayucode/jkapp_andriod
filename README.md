@@ -109,5 +109,5 @@
 #### 如有任何问题请咨询
 #### 微信：
 <img src="https://github.com/laughter-dayu/jkapp/blob/master/pic/wexin.jpg" width="20%">
-#### 或邮箱
-#### dayucode@foxmail.com
+### 或邮箱
+### dayucode@foxmail.com
