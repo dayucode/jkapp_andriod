@@ -61,9 +61,9 @@
 	<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/2.jpg" width="20%">
 </center>
 <center class="half">
-    <img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/3.jpg" width="20%">
-	<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/4.jpg" width="20%">
-	<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/5.jpg" width="20%">
+    <img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/3.jpg" width="20%"/>
+	<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/4.jpg" width="20%"/>
+	<img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/5.jpg" width="20%"/>
 </center>
 <center class="half">
     <img src="https://github.com/dayucode/jkapp_andriod/blob/master/pic/6.jpg" width="20%">
